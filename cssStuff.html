@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<head>
+    <title>HTML</title>
+    <link href="css.css" rel="stylesheet">
+</head>
+<header class="title">
+    <h1>CSS</h1>
+</header>
+<body>
+    <section>
+        <ul class="boxli">
+            <h2>css basics</h2>
+            <li>The basic anatomy of CSS syntax written for both inline styles and stylesheets.</li>
+            <li>Some commonly used CSS terms, such as ruleset, selector, and declaration.</li>
+            <li>CSS inline styles can be written inside the opening HTML tag using the style attribute.</li>
+            <li>Inline styles can be used to style HTML, but it is not the best practice.</li>
+            <li>An internal stylesheet is written using the style element inside the head element of an HTML file. </li>
+            <li>Internal stylesheets can be used to style HTML but are also not best practice </li>
+            <li>An external stylesheet separates CSS code from HTML, by using the .css file extension. </li>
+            <li>External stylesheets are the best approach when it comes to using HTML and CSS. </li>
+            <li>External stylesheets are linked to HTML using the link element </li>
+        </ul>
+    </section>
+    <section>
+        <ul class="boxli">
+            <h2>css fonts basics</h2>
+            <li>The font-family property defines the typeface of an element.</li>
+            <li>font-size controls the size of text displayed.</li>
+            <li>font-weight defines how thin or thick text is displayed.</li>
+            <li>The text-align property places text in the left, right, or center of its parent container.</li>
+            <li>Text can have two different color attributes: color and background-color. color defines the color of the text, while background-color defines the color behind the text.</li>
+            <li>CSS can make an element transparent with the opacity property</li>
+            <li>CSS can also set the background of an element to an image with the background-image property.</li>
+            <li>The !important flag will override any style, however it should almost never be used, as it is extremely difficult to override.</li>
+        </ul>
+        <ul class="boxli">
+            <h2>css layout</h2>
+            <li>The position property allows you to specify the position of an element.</li>
+            <li>When set to relative, an element’s position is relative to its default position on the page.</li>
+            <li>When set to absolute, an element’s position is relative to its closest positioned parent element. It can be pinned to any part of the web page, but the element will still move with the rest of the document when the page is scrolled.</li>
+            <li>When set to fixed, an element’s position can be pinned to any part of the web page. The element will remain in view no matter what.</li>
+            <li>When set to sticky, an element can stick to a defined offset position when the user scrolls its parent container.</li>
+            <li>The z-index of an element specifies how far back or how far forward an element appears on the page when it overlaps other elements.</li>
+            <li>The display property allows you to control how an element flows vertically and horizontally in a document.</li>
+            <li>block elements take up the width of their container and can have manually adjusted heights.</li>
+            <li>inline-block elements can have set width and height, but they can also appear next to each other and do not take up their entire container width.</li>
+            <li>The float property can move elements as far left or as far right as possible on a web page.</li>
+            <li>You can clear an element’s left or right side (or both) using the clear property.</li>
+        </ul>
+        <ul class="boxli">
+            <h2>There are four ways to represent color in CSS:</h2>
+            <li>Named colors—there are more than 140 named colors, which you can review here on MDN.</li>
+            <li>Hexadecimal or hex colors</li>
+            <li>Hexadecimal is a number system that has sixteen digits, 0 to 9 followed by “A” to “F”.</li>
+            <li>Hex values always begin with # and specify values of red, blue, and green using hexadecimal numbers such as #23F41A.</li>
+            <li>Six-digit hex values with duplicate values for each RGB value can be shorted to three digits.</li>
+            <li>RGB colors use the rgb() syntax with one value for red, one value for blue and one value for green.</li>
+            <li>RGB values range from 0 to 255 and look like this: rgb(7, 210, 50).</li>
+            <li>HSL stands for hue (the color itself), saturation (the intensity of the color), and lightness (how light or dark a color is).</li>
+            <li>Hue ranges from 0 to 360 and saturation and lightness are both represented as percentages like this: hsl(200, 20%, 50%).</li>
+            <li>You can add opacity to color in RGB and HSL by adding a fourth value, a, which is represented as a percentage.</li>
+        </ul>
+        <ul class="boxli">
+            <li>Typography is the art of arranging text on a page.</li>
+            <li>Text can appear bold or thin with the font-weight property.</li>
+            <li>Text can appear in italics with the font-style property.</li>
+            <li>The vertical spacing between lines of text can be modified with the line-height property.</li>
+            <li>Serif fonts have extra details on the ends of each letter. Sans-Serif fonts do not.</li>
+            <li>Fallback fonts are used when a certain font is not installed on a user’s computer.</li>
+            <li>The word-spacing property changes how far apart individual words are.</li>
+            <li>The letter-spacing property changes how far apart individual letters are.</li>
+            <li>The text-align property changes the horizontal alignment of text.</li>
+            <li>Google Fonts provides free fonts that can be used in an HTML file with the <link> tag or the @font-face property.</li>
+            <li>Local fonts can be added to a document with the @font-face property and the path to the font’s source.</li>
+        </ul>
+        <ul class="boxli">
+            <li>Added styles to make links recognizable and distinguishable from ordinary text.</li>
+            <li>Added link styles that depend upon mouse interaction state, providing users with visual feedback for cursor hovering and mouse clicks.</li>
+            <li>Added additional context text with the HTML title attribute.</li>
+            <li>Styled buttons to be easily recognizable (in both skeuomorphic and flat design styles) using box shapes, border, hover, and active states.</li>
+        </ul>
+        <ul class="boxli">
+            <h3>Great work! You learned how to size elements on a website relative to other elements on the page. Let’s review what you learned:</h3>
+            <li>Content on a website can be sized relative to other elements on the page using relative measurements.</li>
+            <li>The unit of em sizes font relative to the font size of a parent element.</li>
+            <li>The unit of rem sizes font relative to the font size of a root element. That root element is the <html> element.</li>
+            <li>Percentages are commonly used to size box-model features, like the width, height, padding, or margin of an element.</li>
+            <li>When percentages are used to size width and height, child elements will be sized relative to the dimensions of their parent (remember that parent dimensions must first be set).</li>
+            <li>Percentages can be used to set padding and margin. Horizontal and vertical padding and margin are set relative to the width of a parent element.</li>
+            <li>The minimum and maximum width of elements can be set using min-width and max-width.</li>
+            <li>The minimum and maximum height of elements can be set using min-height and max-height.</li>
+            <li>When the height of an image or video is set, then its width can be set to auto so that the media scales proportionally. Reversing these two properties and values will also achieve the same result.</li>
+            <li>A background image of an HTML element will scale proportionally when its background-size property is set to cover.</li>
+            
+        </ul>
+       
+    </section>
+</body>
+<footer>
+    <a href="HTML.html">
+        <button width=50 lenght=20> Page 1 </button>
+        </a>
+</footer>
