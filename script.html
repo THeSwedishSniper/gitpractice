@@ -1,0 +1,16 @@
+!DOCTYPE html>
+<head>
+    <title>HTML</title>
+    <link href="css.css" rel="stylesheet">
+
+    <body>
+        <ul>
+            <li>HTML creates the skeleton of a webpage, but JavaScript introduces interactivity</li>
+            <li>The script> element has an opening and closing tag. You can embed JavaScript code inbetween the opening and closing script> tags.</li>
+            <li>You link to external JavaScript files with the src attribute in the opening script> tag.</li>
+            <li>By default, scripts are loaded and executed as soon as the HTML parser encounters them in the HTML file, the HTML parser waits to load the entire script before from proceeding to parse the rest of the page elements.</li>
+            <li>The defer attribute ensures that the entire HTML file has been parsed before the script is executed.</li>
+            <li>The async attribute will allow the HTML parser to continue parsing as the script is being downloaded, but will execute immediately after it has been downloaded.</li>
+            <p>The old convention was to put scripts right before the /body> tag to prevent the script from blocking the rest of the HTML content. Now, the convention is to put the script tag in the head> element and to use the defer and async attributes.</p>
+        </ul>
+    </body>
